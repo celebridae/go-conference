@@ -1,0 +1,21 @@
+
+###
+
+GET http://localhost:8080/users
+
+
+###
+
+POST  http://localhost:8080/users/save
+Content-Type: application/json
+
+{
+    "name":"Forever",
+    "email":"email@example.com"
+}
+
+###
+
+
+GET http://localhost:8080/hello
+
